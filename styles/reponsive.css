@@ -158,11 +158,8 @@
         display: none;
     }
 
-    .nutrition-img > img {
-
-        display: block;
-        height: auto;
-
+    .nutrition-img {
+        height: 200px;
     }
     .method-wrapper {
         margin-left: 0;
