@@ -178,6 +178,7 @@ input.checkmark {
 .nutrition-img > img {
     display: block;
     width: 50%;
+    height: auto !important;
 }
 
 .method-video-nutrition {
