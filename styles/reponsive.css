@@ -159,7 +159,7 @@
     }
 
     .nutrition-img {
-        height: 200px;
+        height: auto;
     }
     .method-wrapper {
         margin-left: 0;
