@@ -1,0 +1,165 @@
+/* @media (min-width: 1680px) {
+    .plate-img > img {
+        width: 100%;
+    }
+    
+    .plate-img {
+        right: -5%;
+        top: -10%;
+    }
+
+} */
+
+@media (min-width: 1023px) and (max-width: 1400px)  {
+
+    .box-holder {
+        width: 40%;
+}
+.subscribe-mail input {
+    width: 250px;
+    height: 40px;
+}
+}
+
+@media (max-width: 1195px)  {
+
+    .plate-img > img {
+        width: 80%;
+    }
+    .food-descr > p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1150px) and (min-width: 1023px)  {
+
+    .plate-img {
+        right: -40%;
+        top: -10%;
+    }
+    .plate-img > img {
+        width: 74%;
+    }
+    .food-descr > p {
+        font-size: 15px;
+    }
+    .food-descr > h5{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .healthy-campaign {
+        height: 600px;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+.box-holder {
+        width: 100%;
+}
+.plate-img > img {
+    width: 100%;
+}
+
+.plate-img {
+    right: 0;
+    top: -10%;
+}
+
+.healthy-campaign {
+    flex-direction: column;
+    height: auto;
+}
+
+.healthy-campaign-right {
+    width: 100%;
+}
+.campain-btn {
+    font-size: 17px;
+}
+
+.click-me {
+    display: none;
+}
+}
+
+@media (max-width: 600px) {
+
+    .plate-img > img {
+        width: 70%;
+    }
+    
+    .plate-img {
+        right: -30%;
+        top: -5%;
+    }
+
+    .navigation {
+        display: none;
+    }
+    .footer-box {
+        width: 20%;
+    }
+    .footer-holder {
+        flex-direction: row;
+        flex-wrap: wrap !important;
+    }
+    .subscribe-mail input {
+        display: none;
+    }
+    .campain-btn {
+        border-radius: 20px;
+        font-size: 18px;
+        padding: 15px;
+    }
+
+
+}
+
+@media (max-width: 430px) {
+    .plate-img > img {
+        width: 60%;
+    }
+    
+    .plate-img {
+        right: -58%;
+        top: -5%;
+    }
+    .food-descr > p {
+        font-size: 12px;
+    }
+}
+
+/* page two responsive styles starts here */
+/* page two responsive styles starts here */
+/* page two responsive styles starts here */
+
+@media (max-width: 1200px) {
+
+
+    .ingredients-wrapper  {
+        flex-direction: column;
+        
+          }
+    .ingredients-title-wrap  , .ingredients-list {
+        width: 100%;
+    }
+    .ingredients-img {
+        margin-bottom: 50px;
+        display: none;
+    }
+    .method-wrapper {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .food-detail-img {
+        display: none;
+    }
+
+ }
+

@@ -1,0 +1,433 @@
+:root {
+    --lightGrayBg: #f5f5f5;
+    --lowOpacityBg: #f5f5f5ad;
+    --containerFluidBg: #303030;
+    --containerBg: #ffff;
+    --btnBg: #569358e3;
+    --btnHover: #3e593a ;
+    --footerBg: #1f1f1f;
+}
+
+
+html , body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-fluid {
+width: 100%;
+height: auto;
+margin: 0;
+padding: 0;
+background: var(--containerFluidBg);
+overflow-y: hidden;
+}
+
+.container {
+    width: 96%;
+    height: auto;
+    margin-left: 2%;
+    position: relative;
+    top: 25px;
+    background: var(--containerBg);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.round-b {
+    border-radius: 20px;
+}
+
+/************** Header section styles *****************/
+/************** Header section styles *****************/
+/************** Header section styles *****************/
+
+.header {
+    height: auto;
+    background: var(--containerBg);
+}
+
+.header-top {
+    width: 80%;
+    height: auto;
+    padding: 10px 0 10px 0;
+}
+
+.logo-holder {
+    height: 100%;
+    font-weight: bold;
+}
+
+.logo-holder > img {
+    display: block;
+    height: 70px;
+}
+
+/************** Navigation Tab styles *****************/
+/************** Navigation Tab styles *****************/
+/************** Navigation Tab styles *****************/
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.navigation >  a , .navigation > object {
+margin-left: 30px;
+line-height: 30px;
+
+}
+
+
+.navigation > object {
+    transform: translateY(7px);
+}
+
+.header-bottom {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/test.jpeg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.header-bottom > h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/************** Discover hero / food boxes section styles *****************/
+/************** Discover hero / food boxes section styles *****************/
+/************** Discover hero / food boxes section styles *****************/
+
+.hero-content {
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: var(--containerBg);
+}
+
+.box-holder {
+    width: 33.3%;
+    padding: 25px;
+    min-height: 500px;
+}
+
+.box-holder .box-inside {
+   
+    background: var(--lightGrayBg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 20px;
+    position: relative;
+}
+
+.foods-category-ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 20px 20px 10px 20px;
+}
+
+.foods-category-ul > li {
+    margin-right: 30px;
+    padding: 20px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 16px;
+}
+
+.foods-category-ul > li:hover {
+    background: var(--lightGrayBg);
+}
+
+.food-descr > h5{
+    margin-top: 50px;
+    font-size: 25px;
+    max-width: 200px;
+    padding: 10px;
+}
+
+.food-descr > p{
+    margin: 30px 0 30px 0;
+    font-size: 18px;
+}
+
+.learn-more {
+    
+    display: flex;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    transition: .3s;
+    padding: 10px;
+}
+
+.learn-more:hover {
+    transform: translateY(-5px);
+    transform: scale(1.2);
+}
+
+.plate-img {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    right: -20%;
+    top: -10%;
+}
+
+.plate-img > img {
+    display: block;
+    width: 90%;
+    -webkit-filter: drop-shadow(2px 2px 2px #bfbfbf);
+    filter: drop-shadow(2px 2px 2px #bfbfbf);
+}
+
+.hero-content-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.food-categories-detail {
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.food-categories-detail > a {
+    text-align: center;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    margin: 0 15px 0 0;
+    transition: .2s;
+    background: var(--btnBg);
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+.btn {
+
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    transition: .2s;
+    background: var(--btnBg);
+    color: white;
+    display: inline-block;
+}
+
+.food-categories-detail > a:hover  , .btn:hover {
+    background: var(--btnHover);
+    box-shadow: 2px 1px 15px 0px rgba(191,191,191,0.6);
+}
+
+/************** Healthy campain section styles *****************/
+/************** Healthy campain section styles *****************/
+/************** Healthy campain section styles *****************/
+
+.healthy-campaign {
+    width: 100%;
+    height: 540px;
+    display: flex;
+    margin-top: 80px;
+    background: var(--lowOpacityBg);
+}
+
+.healthy-campaign-left {
+    
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../img/campain.jpg) no-repeat center center;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.healthy-campaign-right {
+    margin-bottom: 50px;
+    width: 50%;
+
+}
+
+.healthy-campaign-right > h3 {
+    font-size: 25px;
+    padding: 50px 50px 0 50px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.healthy-campaign-right > p {
+    font-size: 18px;
+    padding: 50px 50px 0 50px;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    line-height: 1.5em;
+}
+
+.campain-btn {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+}
+
+.subscribe-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.subscribe-mail {
+    align-self: center;
+}
+
+.subscribe-mail input {
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #797979;
+    padding-left: 10px;
+    display: flex;
+
+}
+
+.subscribe-mail input:focus {
+    outline: none !important;
+}
+
+/************** Footer section styles *****************/
+/************** Footer section styles *****************/
+/************** Footer section styles *****************/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: var(--footerBg);
+    width: 100%;
+}
+
+.footer-holder {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-box {
+    min-height: 200px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: left;
+    color: white;
+    margin: 50px 20px 20px 50px;
+}
+
+.footer-box > a {
+    padding-bottom: 10px;
+}
+
+.footer-box .social-media > li > a {
+    display: inline-block;
+}
+
+.footer-box .social-media > li > a > img {
+    margin: 3px 10px 3px 10px;
+    width: 18px;
+}
+
+.footer-box > h6 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    background: var(--footerBg);
+    text-align: center;
+    color: white;
+    line-height: 50px ;
+    border-top: 1px solid rgba(255, 255, 255, 0.233);
+
+}
+
+/************** Click me sign styles *****************/
+/************** Click me sign styles *****************/
+/************** Click me sign styles *****************/
+
+.click-me {
+    position: absolute;
+    top: 1000px;
+}
+
+.click-me > img {
+    width: 150px;
+}
+

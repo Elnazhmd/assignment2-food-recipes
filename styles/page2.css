@@ -1,0 +1,213 @@
+
+.p-50 {
+    padding: 50px
+}
+
+/************** Recipe's Header and plate image styles  *****************/
+/************** Recipe's Header and plate image styles  *****************/
+/************** Recipe's Header and plate image styles  *****************/
+
+.food-more-details{
+    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.65), 
+    rgba(0, 0, 0, 0.65)),
+    url(../img/salmon1.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.food-detail-page2 {
+    margin-left: 50px;
+    padding-bottom: 0 !important;
+    
+}
+.food-detail-info > h1 {
+    max-width: 700px;
+    font-size: 45px;
+    padding-top: 0 !important;
+}
+
+.food-detail-info > p {
+    max-width: 700px;
+    font-size: 22px;
+    padding-top: 0 !important;
+}
+
+.food-detail-img {
+
+    -webkit-filter: drop-shadow(2px 2px 2px #bfbfbf);
+    filter: drop-shadow(2px 2px 2px #bfbfbf);
+    animation: slide-img .3s ease-in .5s forwards;
+}
+
+@keyframes slide-img {
+ 
+    0% {
+        transform: translate(400px ,  -400px);
+        opacity: 0;
+        display: block;
+
+    }
+
+    25% {
+        transform: translate(200px , -200px);
+        opacity: .2;
+  
+    }
+ 
+  50% {
+    transform: translate(100px , -100px);
+    opacity: .5;
+ 
+    }
+
+    75% {
+        transform: translate(50px , -50px);
+        opacity: .7;
+
+
+        }
+
+        100% {
+            transform: translate(0px , 0px);
+            opacity: 1;
+            }
+}
+
+/************** Ingredients section styles  *****************/
+/************** Ingredients section styles  *****************/
+/************** Ingredients section styles  *****************/
+
+.ingredients-wrapper  {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-content: center !important;
+
+}
+
+.ingredients-title-wrap , .ingredients-list{
+    width: 50%;
+}
+
+.ingredients-title {
+    font-size: 35px;
+    padding: 15px 0 15px 0;
+}
+.ingredients-img {
+    display: flex;
+    justify-content: center;
+}
+
+.ingredients-img > img{
+    display: block;
+    width: 100%;
+    width: 500px;
+    border-radius: 50% 3% 50% 3%;
+}
+
+.ingredients-list h6 {
+    font-size: 25px;
+    padding: 15px 50px 15px 50px;
+}
+
+.ingredients-list > ul {
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+.ingredients-list > ul > li {
+    padding-top: 8px;
+}
+
+input.checkmark {
+    width: 20px;
+    height: 20px;
+        transform: translateY(4px);
+}
+
+/************** Method section styles  *****************/
+/************** Method section styles  *****************/
+/************** Method section styles  *****************/
+
+.method-wrapper {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.method {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 50px;
+}
+
+.method h5 {
+    font-size: 35px;
+    padding: 10px 0 10px 0;
+}
+
+.method h6 {
+    font-size: 25px;
+    padding: 20px 0 20px 0;
+}
+
+.method p {
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.nutrition-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.nutrition-img > img {
+    display: block;
+    width: 50%;
+}
+
+.method-video-nutrition {
+    padding-top: 70px;
+}
+
+.method-video-nutrition > video {
+    width: 100%;
+    height: auto
+}
+
+/************** share / save / print section styles *****************/
+/************** share / save / print section styles *****************/
+/************** share / save / print section styles *****************/
+
+.Share-save-recipe {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.Share-save-recipe > a {
+    display: inline-block;
+    margin-left: 50px;
+}
+.Share-save-recipe > a > img {
+
+    transform: translateY(6px);
+}
