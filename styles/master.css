@@ -203,7 +203,13 @@ line-height: 30px;
 
 .food-descr > p{
     margin: 30px 0 30px 0;
-    font-size: 18px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.food-detail {
+    padding-left: 10px;
+    font-size: 14px;
 }
 
 .learn-more {
