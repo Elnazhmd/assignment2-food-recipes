@@ -209,7 +209,7 @@ line-height: 30px;
 
 .food-detail {
     padding-left: 10px;
-    font-size: 14px;
+    font-size: 14px !important;
 }
 
 .learn-more {
