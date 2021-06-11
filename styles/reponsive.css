@@ -138,7 +138,9 @@
 
 @media (max-width: 1200px) {
 
-
+    .food-more-details{
+        height: auto;
+    }
     .ingredients-wrapper  {
         flex-direction: column;
         
